@@ -1,15 +1,3 @@
-/**
-* Template Name: Moderna
-* Template URL: https://bootstrapmade.com/free-bootstrap-template-corporate-moderna/
-* Updated: Aug 07 2024 with Bootstrap v5.3.3
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
-/*--------------------------------------------------------------
-# Font & Color Variables
-# Help: https://bootstrapmade.com/color-system/
---------------------------------------------------------------*/
 /* Fonts */
 :root {
   --default-font: "Roboto", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -234,7 +222,7 @@ h6 {
 # Global Header
 --------------------------------------------------------------*/
 .header {
-  --background-color: rgba(255, 255, 255, 0);
+  --background-color: rgba(48, 57, 105, 0);
   --default-color: #ffffff;
   --heading-color: #ffffff;
   color: var(--default-color);
@@ -249,7 +237,7 @@ h6 {
 }
 
 .header .logo img {
-  max-height: 32px;
+  max-height: 70px;
   margin-right: 8px;
 }
 
@@ -263,7 +251,7 @@ h6 {
 /* Global Header on Scroll
 ------------------------------*/
 .scrolled .header {
-  --background-color: #1e4356;
+  --background-color: #0a116e;
 }
 
 /*--------------------------------------------------------------
@@ -508,7 +496,7 @@ h6 {
 --------------------------------------------------------------*/
 .footer {
   color: var(--default-color);
-  background-color: var(--background-color);
+  background-color: #0a116e;
   font-size: 14px;
   position: relative;
 }
@@ -528,8 +516,8 @@ h6 {
   padding: 6px 8px;
   position: relative;
   border-radius: 4px;
-  background-color: var(--surface-color);
-  border: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
+  background-color: #0a116e;
+  border: 1px solid #FFFFFF;
   box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.1);
   display: flex;
   transition: 0.3s;
@@ -537,14 +525,14 @@ h6 {
 }
 
 .footer .footer-newsletter .newsletter-form:focus-within {
-  border-color: var(--accent-color);
+  border-color: #FFFFFF;
 }
 
 .footer .footer-newsletter .newsletter-form input[type=email] {
   border: 0;
   padding: 4px;
   width: 100%;
-  background-color: var(--surface-color);
+  background-color: #0a116e;
   color: var(--default-color);
 }
 
@@ -557,14 +545,15 @@ h6 {
   font-size: 16px;
   padding: 0 20px;
   margin: -7px -8px -7px 0;
-  background: var(--accent-color);
+  background: #0a116e;
   color: var(--contrast-color);
+  border: 1px solid #FFF;
   transition: 0.3s;
   border-radius: 50px;
 }
 
 .footer .footer-newsletter .newsletter-form input[type=submit]:hover {
-  background: color-mix(in srgb, var(--accent-color), transparent 20%);
+  background: #2047c9;
 }
 
 .footer .footer-top {
@@ -704,7 +693,8 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 99999;
-  background-color: var(--accent-color);
+  background-color: #0a116e;
+  border: 1px solid #f4f8fb;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -718,7 +708,7 @@ h6 {
 }
 
 .scroll-top:hover {
-  background-color: color-mix(in srgb, var(--accent-color), transparent 20%);
+  background-color: #1a223a;
   color: var(--contrast-color);
 }
 
@@ -812,6 +802,7 @@ section,
 }
 
 .section-title h2 {
+  color: #df1529;
   font-size: 32px;
   font-weight: 700;
   margin-bottom: 20px;
@@ -957,11 +948,11 @@ section,
   margin: 10px;
   color: var(--default-color);
   animation: fadeInUp 1s both 0.4s;
-  border: 2px solid var(--accent-color);
+  border: 2px solid #0a116e;
 }
 
 .hero .btn-get-started:hover {
-  background: var(--accent-color);
+  background: #0a116e;
   color: var(--contrast-color);
   text-decoration: none;
 }
@@ -1198,9 +1189,9 @@ section,
 # Featured Services Section
 --------------------------------------------------------------*/
 .featured-services {
-  --cyan-color: #0dcaf0;
-  --orange-color: #fd7e14;
-  --teal-color: #20c997;
+  --cyan-color: #0a116e;
+  --orange-color: #f72832;
+  --teal-color: #2047c9;
   --red-color: #df1529;
 }
 
@@ -1521,6 +1512,7 @@ section,
 .about .content h3 {
   font-size: 1.75rem;
   font-weight: 700;
+  color: #0a116e;
 }
 
 .about .content ul {
@@ -1534,7 +1526,7 @@ section,
 }
 
 .about .content ul i {
-  color: var(--accent-color);
+  color: red;
   margin-right: 0.5rem;
   line-height: 1.2;
   font-size: 1.25rem;
@@ -1570,6 +1562,7 @@ section,
 .features .features-item h3 {
   font-weight: 700;
   font-size: 26px;
+  color: #0a116e;
 }
 
 .features .features-item ul {
@@ -1590,7 +1583,7 @@ section,
 .features .features-item ul i {
   font-size: 20px;
   padding-right: 4px;
-  color: var(--accent-color);
+  color: #df1529;
 }
 
 .features .features-item p:last-child {
@@ -2797,7 +2790,7 @@ section,
 
 .contact .php-email-form button[type=submit] {
   color: var(--contrast-color);
-  background: var(--accent-color);
+  background: #0a116e;
   border: 0;
   padding: 10px 30px;
   transition: 0.4s;
@@ -2805,7 +2798,7 @@ section,
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: color-mix(in srgb, var(--accent-color), transparent 20%);
+  background: #272fa8;
 }
 
 /*--------------------------------------------------------------
