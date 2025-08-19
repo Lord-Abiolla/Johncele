@@ -45,10 +45,10 @@
 }
 
 .dark-background {
-  --background-color: #1e4356;
+  --background-color: #0a116e;
   --default-color: #ffffff;
   --heading-color: #ffffff;
-  --surface-color: #284e62;
+  --surface-color: #31399c;
   --contrast-color: #ffffff;
 }
 
@@ -731,7 +731,7 @@ h6 {
 --------------------------------------------------------------*/
 .page-title {
   color: var(--default-color);
-  background-color: var(--background-color);
+  background-color: #0a116e;
   padding: 160px 0 80px 0;
   text-align: center;
   position: relative;
@@ -1342,6 +1342,7 @@ section,
 }
 
 .team .team-intro .team-intro-content h2 {
+  color: #0a116e;
   font-size: 32px;
   font-weight: 700;
   margin-bottom: 20px;
@@ -1375,8 +1376,8 @@ section,
   height: 50px;
   border-radius: 50%;
   background-color: transparent;
-  border: 2px solid var(--accent-color);
-  color: var(--accent-color);
+  border: 2px solid #0a116e;
+  color: #0a116e;
   font-size: 20px;
   display: flex;
   align-items: center;
@@ -1386,8 +1387,8 @@ section,
 }
 
 .team .team-intro .team-navigation button:hover {
-  background-color: var(--accent-color);
-  color: var(--contrast-color);
+  background-color: #0a116e;
+  color: #FFFFFF;
 }
 
 .team .member-card {
@@ -1448,13 +1449,14 @@ section,
 }
 
 .team .member-card .member-info h3 {
+  color: #0a116e;
   font-size: 22px;
   font-weight: 700;
   margin-bottom: 5px;
 }
 
 .team .member-card .member-info span {
-  color: var(--accent-color);
+  color: red;
   font-size: 14px;
   font-weight: 500;
   margin-bottom: 15px;
@@ -1473,19 +1475,20 @@ section,
   width: 32px;
   height: 32px;
   background-color: color-mix(in srgb, var(--accent-color), transparent 90%);
-  color: var(--accent-color);
+  color: #0a116e;
   border-radius: 6px;
   font-size: 16px;
   transition: all 0.3s ease;
 }
 
 .team .member-card .member-social a:hover {
-  background-color: var(--accent-color);
+  background-color: #0a116e;
   color: var(--contrast-color);
   transform: translateY(-3px);
 }
 
 .team .member-card .member-bio p {
+  text-align: justify;
   font-size: 14px;
   line-height: 1.6;
   color: color-mix(in srgb, var(--default-color), transparent 20%);
@@ -1601,7 +1604,7 @@ section,
 .stats .stats-item span {
   font-size: 48px;
   display: block;
-  color: var(--accent-color);
+  color: #FFFFFF;
   font-weight: 700;
 }
 
