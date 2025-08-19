@@ -1852,6 +1852,16 @@ section,
   margin-bottom: 15px;
 }
 
+.featured-services .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.featured-services .content ul i {
+  color: red;
+  padding: 0;
+}
+
 .service-details .services-list {
   background-color: var(--surface-color);
 }
